@@ -1,0 +1,21 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: <ingress resource name>
+# annotations are optional at this stage! 
+  annotations:
+    <annotations-key>: <annotations-value>
+  labels:
+    <label-key>: <label-value>
+spec:
+  rules:
+  - host: <host string>
+    http:
+      paths:
+      - path: <URI relative to the host>
+        pathType: Prefix
+        backend:
+          service: 
+            name: <string>
+            port:
+              number : <int>

@@ -1,0 +1,38 @@
+apiVersion: v1
+items:
+- apiVersion: networking.k8s.io/v1
+  kind: Ingress
+  metadata:
+    annotations:
+      nginx.ingress.kubernetes.io/backend-protocol: HTTP
+      nginx.ingress.kubernetes.io/force-ssl-redirect: "false"
+    creationTimestamp: "2021-10-15T10:45:01Z"
+    generation: 1
+    name: mongo-express-80--test
+    namespace: default
+    resourceVersion: "389795"
+    uid: 805547f1-f2f9-4b7f-9007-2319a3544c99
+  spec:
+    ingressClassName: nginx
+    rules:
+    - host: test.ingress.q0kr8q6skg.playground.shoot.canary.k8s-hana.ondemand.com
+      http:
+        paths:
+        - backend:
+            service:
+              name: mongo-express
+              port:
+                number: 80
+          path: /
+          pathType: Prefix
+    tls:
+    - hosts:
+      - test.ingress.q0kr8q6skg.playground.shoot.canary.k8s-hana.ondemand.com
+  status:
+    loadBalancer:
+      ingress:
+      - hostname: a4eaa42c0cb624bd783c841e00b890e8-1162819129.eu-central-1.elb.amazonaws.com
+kind: List
+metadata:
+  resourceVersion: ""
+  selfLink: ""
