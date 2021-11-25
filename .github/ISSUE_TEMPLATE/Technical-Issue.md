@@ -1,7 +1,9 @@
 ---
-Name: Technical Issue
-about: File a technical component issue for Data Lake clusters
-title: Technical Issue:
+name: Technical Issue
+about: File a technial issue in Data Lake clusters
+title: '[Technical_Issue] <title>'
+labels: ''
+assignees: ''
 
 ---
 
