@@ -1,6 +1,6 @@
 ---
 name: Technical Issue
-about: File a technial issue in Data Lake clusters
+about: File a technical issue in Data Lake clusters
 title: '[Technical_Issue] <title>'
 labels: ''
 assignees: ''
