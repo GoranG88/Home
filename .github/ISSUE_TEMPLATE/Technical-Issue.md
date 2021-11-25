@@ -1,8 +1,8 @@
 ---
 name: Technical Component
-about: File a bug/issue
+about: File an issue regarding a technical component in Data Lake cluster
 title: '[BUG] <title>'
-labels: Bug, Needs Triage
+labels: ''
 assignees: ''
 
 ---
