@@ -1,3 +1,4 @@
+---
 Name: Technical Issue
 about: File a technical component issue for Data Lake clusters
 title: Technical Issue:
