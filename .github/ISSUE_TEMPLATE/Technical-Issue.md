@@ -1,7 +1,7 @@
 ---
 name: Technical Component
-about: File an issue regarding a technical component in Data Lake cluster
-title: '[BUG] <title>'
+about: File an issue regarding a technical component in Data Lake clusters
+title:'[BUG] <title>'
 labels: ''
 assignees: ''
 
