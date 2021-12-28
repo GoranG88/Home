@@ -4,7 +4,7 @@ about: File a bug/issue
 title: '[BUG] <title>'
 labels: Bug, Needs Triage
 assignees: ''
-project: ''
+project: 'Issues Dashboard'
 
 ---
 
