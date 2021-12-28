@@ -3,7 +3,7 @@ name: 🐞 Bug
 about: File a bug/issue
 title: '[BUG] <title>'
 labels: Bug, Needs Triage
-assignees: ''
+assignees: 'GoranG88'
 project: 'Issues Dashboard'
 
 ---
