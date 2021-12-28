@@ -4,7 +4,7 @@ about: File an issue regarding a technical component in Data Lake clusters
 title: '[BUG] <title> '
 labels: ''
 assignees: ''
-project: ''
+projects: 'Issues Dashboard'
 
 ---
 
